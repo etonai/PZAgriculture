@@ -1,6 +1,6 @@
 # DevCycle 001: Restore Compatibility with 42.19.0
 
-**Status:** Planning  
+**Status:** COMPLETE
 **Start Date:** 2026-06-13  
 **Target Completion:** TBD  
 **Focus:** Fix all structural breakages introduced by game changes in build 42.19.0
@@ -35,7 +35,7 @@ The `minVegAutorized` / `maxVegAutorized` property names in the mod files are in
 
 ### Phase 2: Verify Load Order
 
-**Status:** Planning
+**Status:** UNNECESSARY - Bad idea by Claude
 
 Confirm that the game loads base game crop scripts before mod scripts, so the mod's `farming_vegetableconf.props` table assignments overwrite vanilla values rather than the reverse.
 
@@ -47,12 +47,12 @@ The game split crop config across `farming_vegetableconf_vegetables.lua` and `fa
 
 ### Phase 3: Evaluate `badMonthHardyLevel`
 
-**Status:** Planning
+**Status:** DECIDED AGAINST
 
 Determine whether the mod needs to set `badMonthHardyLevel` on Carrots and Kale.
 
 - [ ] Test in-game behavior of Carrots and Kale without `badMonthHardyLevel` set
-- [ ] Decide whether to add the property or leave it absent
+- [X] Decide whether to add the property or leave it absent
 - [ ] If adding, determine appropriate skill level values consistent with the mod's design intent
 
 **Technical Notes:**  
