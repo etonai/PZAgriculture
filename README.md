@@ -1,48 +1,45 @@
-# Project Template
+# Realistic Kentucky Farming Calendar
 
-This repository is a lightweight starting point for new projects.
+A Project Zomboid mod that replaces vanilla crop growing seasons with calendar-accurate seasons for Central Kentucky.
 
-It is intended to provide a small amount of durable project structure without adding placeholder files that need to be cleaned up later.
+Primary sources: [almanac.com](https://www.almanac.com) and [University of Kentucky Cooperative Extension](https://extension.uky.edu).
 
-## Purpose
+## What It Does
 
-This template is meant to give new projects:
+Project Zomboid's vanilla farming uses simplified growing windows that do not reflect real regional agriculture. This mod overrides `farming_vegetableconf.props` for every farmable crop with accurate sowing windows, best months, risk months, and bad months based on Central Kentucky growing conditions.
 
-- a standard project context entry point in `AGENTS.md`
-- compatibility with workflows that use `CLAUDE.md` as a project context file
-- a lightweight planning workflow in `doc/planning/DevelopmentProcess.md`
-- a default `DevCycleTemplate.md` that projects may keep or adjust
-- a clean foundation that can be adapted without unnecessary template residue
+It does not change game mechanics — only the crop calendar data that the farming system reads.
 
-## Agent Context Standard
+## File Structure
 
-`AGENTS.md` is intended to be the standard first-read document for agents with little or no project context.
+```
+PseudoAgriculture/          ← mod folder (loaded by the game)
+  common/
+    media/lua/server/
+      PseudoGPTFarming.lua  ← version-agnostic crop overrides
+  42/
+    media/lua/server/
+      RealisticKentuckyFarming.lua  ← build-42-specific overrides
+    mod.info
+    poster.png
+doc/
+  planning/                 ← DevCycle planning documents
+    DevelopmentProcess.md
+    DevCycleTemplate.md
+    examples/
+AGENTS.md
+CLAUDE.md
+README.md
+```
 
-When starting work in a project created from this template, users should direct agents to read `AGENTS.md` first.
+The `common/` folder applies to all supported game versions. The `42/` folder applies specifically to Project Zomboid build 42 and takes precedence over `common/` for that build.
 
-This is intended to be the standard across all projects created from this template.
+## Development Process
 
-## Important
+This project uses a DevCycle workflow. See `doc/planning/DevelopmentProcess.md` for the full process.
 
-When you create a real project from this template, you should replace this `README.md` with a project-specific README.
+For AI agents: read `AGENTS.md` before starting any work.
 
-This is the one document in the template that is expected to be fully overwritten for the new project.
+## Compatibility
 
-## Getting Started
-
-After creating a new project from this template:
-
-1. Overwrite `README.md` with the actual project description.
-2. Tell agents with no context to read `AGENTS.md` before starting work.
-3. Update `AGENTS.md` with project-specific context as needed.
-4. Review `DevCycleTemplate.md` and keep it as-is or adjust it for the new project.
-5. If your workflow uses `CLAUDE.md`, keep it aligned with `AGENTS.md` or adapt as needed for Claude Code.
-6. Continue using `doc/planning/DevelopmentProcess.md` as the basis for planning and execution.
-
-## Project Owner Responsibility
-
-The template includes a `DevCycleTemplate.md` file for new projects to use as a starting point.
-
-The project owner may keep that template as-is or adjust it to better fit the project's planning style.
-
-`doc/planning/DevelopmentProcess.md` describes how DevCycle documents are used, while `DevCycleTemplate.md` provides the default starting structure.
+The mod targets **Project Zomboid build 42**. See the parent project's `docs/AgricultureChanges_42_19_0.md` for a record of structural changes between the version the mod was originally built against and the current game files.
