@@ -1,0 +1,11 @@
+
+Actual values from the game:  Days to Grow
+
+Barley 108
+Broccoli 60
+Carrots 90
+
+Garlic 240
+Leek 150
+Potato 90
+Radish 30

@@ -1,0 +1,12 @@
+almanac.com
+
+
+Broccoli 60 days to grow  time 288
+Carrot 70 days to grow   time 336
+Cauliflower 75     time 360
+Kale 60  time 288
+Peas 55    time 264
+Spinach 30   time 144
+Turnip 50  time 240
+
+
