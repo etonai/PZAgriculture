@@ -1,7 +1,3 @@
--- Flax
--- Hemp
--- Hops
-
 farming_vegetableconf.props.Barley = {
     sowMonth = {2, 3, 4, 5, 6, 7, 8, 9, 10},
     badMonth = {},
@@ -21,7 +17,7 @@ farming_vegetableconf.props.Barley = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.BarleySheaf",
     seedTypes = { "Base.BarleySeed",},
-    seasonRecipe = "Barley Growing Season",
+    seasonRecipe = "base:barley growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -52,7 +48,7 @@ farming_vegetableconf.props.BellPepper = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Bell Pepper Growing Season",
+    seasonRecipe = "base:bell pepper growing season",
 }
 
 farming_vegetableconf.props["Broccoli"] = {
@@ -76,7 +72,7 @@ farming_vegetableconf.props["Broccoli"] = {
     rotTime = 248,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Broccoli Growing Season",
+    seasonRecipe = "base:broccoli growing season",
     mothFood = true,
 --     seedTypes = {"Base.BroccoliSeed",},
 }
@@ -106,7 +102,7 @@ farming_vegetableconf.props["Cabbages"] = {
     waterNeeded = 80,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Cabbage Growing Season",
+    seasonRecipe = "base:cabbage growing season",
     coldHardy = true,
     mothFood = true,
 --     seedTypes = {"Base.CabbageSeed",},
@@ -134,7 +130,7 @@ farming_vegetableconf.props["Carrots"] = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Carrot Growing Season",
+    seasonRecipe = "base:carrot growing season",
 --     seedTypes = {"Base.CarrotSeed",},
 }
 
@@ -159,11 +155,10 @@ farming_vegetableconf.props["Cauliflower"] = {
     rotTime = 248,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Cauliflower Growing Season",
+    seasonRecipe = "base:cauliflower growing season",
     mothFood = true,
 --     seedTypes = {"Base.BroccoliSeed",},
 }
-
 
 farming_vegetableconf.props.Corn = {
     sowMonth = {3, 4, 5},
@@ -187,7 +182,7 @@ farming_vegetableconf.props.Corn = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Corn Growing Season",
+    seasonRecipe = "base:corn growing season",
     harvestPosition = "High",
 }
 
@@ -214,7 +209,7 @@ farming_vegetableconf.props.Cucumber = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Cucumber Growing Season",
+    seasonRecipe = "base:cucumber growing season",
 }
 
 farming_vegetableconf.props.Flax = {
@@ -236,7 +231,7 @@ farming_vegetableconf.props.Flax = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.Flax",
     seedTypes = { "Base.FlaxSeed",},
-    seasonRecipe = "Flax Growing Season",
+    seasonRecipe = "base:flax growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -266,7 +261,7 @@ farming_vegetableconf.props.Garlic = {
     mature = 5,
     fullGrown = 6,
     waterNeeded = 70,
-    seasonRecipe = "Garlic Growing Season",
+    seasonRecipe = "base:garlic growing season",
     seedTypes = { "Base.GarlicSeed", "Base.Garlic",},
     aphidsBane = true,
     slugsProof = true,
@@ -298,7 +293,7 @@ farming_vegetableconf.props.Greenpeas = {
     waterNeeded = 80,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Green Pea Growing Season",
+    seasonRecipe = "base:green pea growing season",
     harvestPosition = "Mid",
     slugsProof = true,
     mothFood = true,
@@ -323,7 +318,7 @@ farming_vegetableconf.props.Hemp = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.HempSeed",
     seedTypes = { "Base.HempSeed",},
-    seasonRecipe = "Hemp Growing Season",
+    seasonRecipe = "base:hemp growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -349,7 +344,7 @@ farming_vegetableconf.props.Hops = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.HopsSeed",
     seedTypes = { "Base.HopsSeed",},
-    seasonRecipe = "Hops Growing Season",
+    seasonRecipe = "base:hops growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -374,7 +369,7 @@ farming_vegetableconf.props.Kale = {
     vegetableName =  "Base.Kale",
     seedName = "Base.KaleSeed",
 --     seedTypes = { "Base.KaleSeed", },
-    seasonRecipe = "Kale Growing Season",
+    seasonRecipe = "base:kale growing season",
     harvestLevel = 5,
     mature = 5,
     fullGrown = 6,
@@ -405,7 +400,7 @@ farming_vegetableconf.props.Lettuce = {
     waterNeeded = 80,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Lettuce Growing Season",
+    seasonRecipe = "base:lettuce growing season",
 }
 
 farming_vegetableconf.props.Onion = {
@@ -427,7 +422,7 @@ farming_vegetableconf.props.Onion = {
     vegetableName =  "Base.Onion",
     seedName = "Base.OnionSeed",
     seedTypes = {"Base.OnionSeed", "Base.Onion",},
-    seasonRecipe = "Onion Growing Season",
+    seasonRecipe = "base:onion growing season",
     harvestLevel = 5,
     mature = 5,
     fullGrown = 6,
@@ -460,7 +455,7 @@ farming_vegetableconf.props["Potatoes"] = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Potato Growing Season",
+    seasonRecipe = "base:potato growing season",
     slugsProof = true,
     mothFood = true,
 }
@@ -487,7 +482,7 @@ farming_vegetableconf.props.Pumpkin = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Pumpkin Growing Season",
+    seasonRecipe = "base:pumpkin growing season",
 }
 
 farming_vegetableconf.props["Radishes"] = {
@@ -513,7 +508,7 @@ farming_vegetableconf.props["Radishes"] = {
     rotTime = 224,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Radish Growing Season",
+    seasonRecipe = "base:radish growing season",
     slugsProof = true,
     mothFood = true,
 --     seedTypes = {"Base.RedRadishSeed",},
@@ -538,7 +533,7 @@ farming_vegetableconf.props.Rye = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.RyeSheaf",
     seedTypes = { "Base.RyeSeed",},
-    seasonRecipe = "Rye Growing Season",
+    seasonRecipe = "base:rye growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -565,7 +560,7 @@ farming_vegetableconf.props.Soybeans = {
     vegetableName =  "Base.Soybeans",
     seedName = "Base.Soybeans",
     seedTypes = { "Base.SoybeansSeed", "Base.Soybeans",},
-    seasonRecipe = "Soybean Growing Season",
+    seasonRecipe = "base:soybean growing season",
     harvestLevel = 5,
     mature = 5,
     fullGrown = 6,
@@ -592,7 +587,7 @@ farming_vegetableconf.props["Spinach"] = {
     rotTime = 248,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Spinach Growing Season",
+    seasonRecipe = "base:spinach growing season",
     mothFood = true,
 }
 
@@ -619,7 +614,7 @@ farming_vegetableconf.props["Strawberryplant"] = {
     mature = 5,
     fullGrown = 6,
     specialSeed = "Base.Strewberrie",
-    seasonRecipe = "Strawberry Growing Season",
+    seasonRecipe = "base:strawberry growing season",
     seedTypes = {"Base.StrewberrieSeed", },
 --     growBack = 1,
     growBack = 2,
@@ -648,7 +643,7 @@ farming_vegetableconf.props["SugarBeets"] = {
     rotTime = 224,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Sugar Beet Growing Season",
+    seasonRecipe = "base:sugar beet growing season",
     mothFood = true,
 --     seedTypes = {"Base.RedRadishSeed",},
 }
@@ -675,7 +670,7 @@ farming_vegetableconf.props["Sunflower"] = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Sunflower Growing Season",
+    seasonRecipe = "base:sunflower growing season",
     harvestPosition = "High",
 }
 
@@ -698,7 +693,7 @@ farming_vegetableconf.props.SweetPotato = {
     vegetableName =  "Base.SweetPotato",
     seedName = "Base.SweetPotatoSeed",
     seedTypes = { "Base.SweetPotatoSeed", "Base.SweetPotato",},
-    seasonRecipe = "Sweet Potato Growing Season",
+    seasonRecipe = "base:sweet potato growing season",
     harvestLevel = 5,
     mature = 5,
     fullGrown = 6,
@@ -725,7 +720,7 @@ farming_vegetableconf.props["Tobacco"] = {
     rotTime = 248,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Tobacco Growing Season",
+    seasonRecipe = "base:tobacco growing season",
     mothFood = true,
 }
 
@@ -752,7 +747,7 @@ farming_vegetableconf.props["Tomato"] = {
     mature = 5,
     fullGrown = 6,
     specialSeed = "Base.Tomato",
-    seasonRecipe = "Tomato Growing Season",
+    seasonRecipe = "base:tomato growing season",
     seedTypes = {"Base.TomatoSeed",},
     harvestPosition = "Mid",
     slugsProof = true,
@@ -778,7 +773,7 @@ farming_vegetableconf.props.Turnip = {
     vegetableName =  "Base.Turnip",
     seedName = "Base.TurnipSeed",
     seedTypes = { "Base.TurnipSeed", },
-    seasonRecipe = "Turnip Growing Season",
+    seasonRecipe = "base:turnip growing season",
     harvestLevel = 5,
     mature = 5,
     fullGrown = 6,
@@ -806,7 +801,7 @@ farming_vegetableconf.props.Watermelon = {
     waterNeeded = 80,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Watermelon Growing Season",
+    seasonRecipe = "base:watermelon growing season",
 }
 
 farming_vegetableconf.props.Wheat = {
@@ -828,7 +823,7 @@ farming_vegetableconf.props.Wheat = {
 --     produceExtra =  "Base.HayTuft",
     seedName = "Base.WheatSheaf",
     seedTypes = { "Base.WheatSeed", },
-    seasonRecipe = "Wheat Growing Season",
+    seasonRecipe = "base:wheat growing season",
     harvestLevel = 6,
     mature = 5,
     fullGrown = 6,
@@ -858,5 +853,5 @@ farming_vegetableconf.props.Zucchini = {
     waterNeeded = 70,
     mature = 5,
     fullGrown = 6,
-    seasonRecipe = "Zucchini Growing Season",
+    seasonRecipe = "base:zucchini growing season",
 }

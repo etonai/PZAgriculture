@@ -21,12 +21,12 @@ All crops defined in `PseudoGPTFarming.lua` and `RealisticKentuckyFarming.lua` c
 
 ### Phase 1: Fix `seasonRecipe` IDs
 
-**Status:** Planning
+**Status:** Work Complete
 
 Update every `seasonRecipe` string in both mod files from the old Title Case format to the new namespaced lowercase format the engine now expects.
 
-- [ ] Update all `seasonRecipe` values in `PseudoAgriculture/common/media/lua/server/PseudoGPTFarming.lua`
-- [ ] Update all `seasonRecipe` values in `PseudoAgriculture/42/media/lua/server/RealisticKentuckyFarming.lua`
+- [x] Update all `seasonRecipe` values in `PseudoAgriculture/common/media/lua/server/PseudoGPTFarming.lua`
+- [x] Update all `seasonRecipe` values in `PseudoAgriculture/42/media/lua/server/RealisticKentuckyFarming.lua`
 
 **Technical Notes:**  
 The engine changed `seasonRecipe` IDs from `"Crop Growing Season"` to `"base:crop growing season"` across all vanilla crops. The full mapping is documented in `doc/ideas/AgricultureChanges_42_19_0.md`. Both mod files must be updated — `PseudoGPTFarming.lua` covers the common version and `RealisticKentuckyFarming.lua` covers the 42-specific overrides, and both contain full crop definitions with the old format.
